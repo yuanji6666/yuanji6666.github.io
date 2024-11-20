@@ -1,1 +1,145 @@
-<h1>hello! My name is yuanji.</h1>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的最爱唱片</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        header a:hover {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('your-favorite-record.jpg') no-repeat 0 -100px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 15px;
+            background: #fff;
+        }
+        #main h2 {
+            font-size: 25px;
+        }
+        #main p {
+            font-size: 16px;
+            line-height: 1.7;
+        }
+        #main .album-info {
+            margin-bottom: 20px;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">我的最爱唱片</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">首页</a></li>
+                    <li><a href="about.html">关于我</a></li>
+                    <li><a href="contact.html">联系方式</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="showcase">
+        <div class="container">
+            <h1>我的最爱唱片</h1>
+            <p>这里是对唱片的简短介绍</p>
+        </div>
+    </div>
+
+    <div id="main" class="container">
+        <section id="main-bio">
+            <article class="album-info">
+                <h2>唱片信息</h2>
+                <p><strong>名称：</strong>[唱片名称]</p>
+                <p><strong>艺术家：</strong>[艺术家姓名]</p>
+                <p><strong>发行日期：</strong>[发行日期]</p>
+                <p><strong>唱片公司：</strong>[唱片公司]</p>
+                <p><strong>流派：</strong>[音乐流派]</p>
+            </article>
+            <article class="album-tracks">
+                <h2>曲目列表</h2>
+                <p>1. [歌曲1]</p>
+                <p>2. [歌曲2]</p>
+                <!-- 添加更多曲目 -->
+            </article>
+            <article class="album-review">
+                <h2>个人评价</h2>
+                <p>[你对这张唱片的个人评价和感受]</p>
+            </article>
+        </section>
+    </div>
+
+    <footer>
+        <p>版权所有 &copy; 2024 [你的名字]</p>
+    </footer>
+</body>
+</html>
