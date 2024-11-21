@@ -12,16 +12,14 @@
     background-color: #f0f0f0; /* 低饱和度背景色 */
     color: #333; /* 文字颜色 */
   }
-  .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-  }
+  
   .header {
     background-color: #fff; /* 白色背景 */
     padding: 20px;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+    font-size:200%;
+    font-family: 'Times New Roman', Times, serif;
   }
   .header h1 {
     margin: 0;
@@ -31,9 +29,11 @@
     width: 100%;
     max-width: 300px;
     height: auto;
-    margin: 20px auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
     border-radius: 5px; /* 圆角 */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影 */
+    
   }
   .album-info {
     text-align: center;
@@ -42,10 +42,12 @@
   .album-info h2 {
     margin: 0;
     color: #555; /* 较深灰色文字 */
+    font-family: 'Times New Roman', Times, serif;
   }
   .album-info p {
-    color: #777; /* 较浅灰色文字 */
+    color: #484848; /* 较浅灰色文字 */
     font-size: 0.9em;
+    font-family: 'Times New Roman', Times, serif;
   }
   .tracklist {
     list-style: none;
@@ -64,31 +66,43 @@
   .tracklist .track-title {
     color: #333; /* 深灰色文字 */
   }
+
+
+
+
 </style>
 </head>
 <body>
+    <overflow-></overflow->
 
-<div class="container">
+  
   <div class="header">
-    <h1>Yuanji's cd collection</h1>
+    <h1>Yuanji's Album Collection</h1>
   </div>
+ 
   
-  <img src="\image\the dark side of the moon.jpg" alt="Album Cover" class="album-cover">
   
+  <div style="text-align: center"><img src="\image\the dark side of the moon.jpg" alt="Album Cover" class="album-cover">
+  </div>
   <div class="album-info">
     <h2>the Dark Side of the Moon</h2>
     <p>Pink Floyd</p>
     <p>1973</p>
+    <audio src="\image\Time.mp3" controls></audio>
   </div>
   
-  <ul class="tracklist">
-    <li>
-      <span class="track-number">01</span>
-      <span class="track-title">Track Title</span>
-    </li>
-    <!-- Repeat the above li element for each track -->
-  </ul>
-</div>
+  <p style="font-family: stkaiti; text-align: center;" >
+    本人前卫摇滚的入门专<br>
+    概念唱片的最高标准，从创作理念、演奏水平及录音制作水平都达到了登峰造极的境界。<br>
+    由Roger Water主创的歌词像一把把无形的利刃，刺穿被美好面具包围着的丑恶社会现状，同时也呐喊出孤独无援的灵魂被名利架空之后的不安和惶恐。<br>
+    题材涉及战争、贪婪、政治甚至牛顿物理学。<br>
+    虽然是70年代的作品，但风格大胆前卫，后世无人能及，这是来自未来的音乐。<br>
+  </p>
+    
+
+  
+  
+
 
 </body>
 </html>
