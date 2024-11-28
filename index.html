@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>袁霁的个人主页</title>
+    <style>
+        body {
+            font-family: 'Arial',Geneva;
+            margin: 0;
+            padding: 0;
+            background-size: 100%;
+            
+        }
+        .header {
+            text-align: center;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            color: #ffffff;
+            font-size: 550%;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .header p {
+            color: #ffffff;
+            font-size: 18px;
+            font-style: italic;
+            font-family: Lucida handwriting;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #ffffff;
+        }
+        .links{
+            text-align: center;
+            color: #fd0000
+        }
+    
+    
+    </style>
+</head>
+<body background="image\background.jpg">
+    <audio id="vd" src="image\Goldberg Variations, BWV 988_Aria(巴赫：《哥德堡变奏曲》BWV 988，咏叹调一).mp3" preload="auto" >
+
+    </audio>
+    
+    <script type="text/javascript">
+        window.onload = function(){
+                 setInterval("toggleSound()",100);
+            }
+    
+        function toggleSound() {
+                    var music = document.getElementById("vd");//获取ID  
+                        
+                    if (music.paused) { //判读是否播放  
+                        music.paused=false;
+                        music.play(); //没有就播放 
+                    }    
+            }
+    </script>
+    
+   
+                               
+    
+        <div class="header">
+            <h1>Welcome！</h1>
+            <p>live in the moment</p>
+        </div>
+        <div class="links">
+            <a href="web\introduction.html" >点击阅读自我介绍</a>
+            
+            
+            </div>    
+        <div class="links">
+            <a href="web\readme.html" >点击阅读前言</a>
+            
+            
+            </div>    
+        <div class="links">
+        
+        <a href="web\music.html" >点击进入我的音乐小站</a>
+        
+        </div>    
+        <div class="footer">
+            <p>！！！点击任意处，享受音乐！！！</p>
+        </div>
+        <div class="footer">
+            <p>版权所有 &copy; 2024 华中科技大学计算机学院 2411班 袁霁</p>
+        </div>
+        <div class="footer">
+            <a href="https://www.bilibili.com/video/BV1GJ411x7h7/?spm_id_from=333.337.search-card.all.click&vd_source=b82deec96c307513f0614f28bf4e6504">看不见我</p>
+        </div>
+    
+    
+</body>
+</html>
